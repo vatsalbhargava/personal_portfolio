@@ -1,0 +1,238 @@
+body {
+    background-color: lightblue;
+    color:  rgb(33, 47, 60);
+    outline-color: rgb(33, 47, 60)
+}
+.top-nav {
+    background-color: rgb(33, 47, 60);
+    position: fixed;
+    color:#000;
+   /* box-shadow: 0px 4px 4px blue; */
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    width: 100%;
+    
+}
+nav {
+    text-decoration: none;
+    background-color: #bbb;
+    color: #000;
+    border-bottom: .25em #444;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: sans-serif;
+    font-weight: bold;
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+nav :visited {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    margin-top: 100px;
+    margin-left: 10px;
+}
+
+nav.top-nav li:hover {
+    text-decoration: underline;
+}
+
+nav.top-nav li {
+    /* get them horiz */
+    display: inline-block;
+    margin: 5px;
+    user-select: none;
+    color: white;
+}
+
+.top-nav .name {
+    color: white;
+    margin: 20px;
+}
+
+nav.top-nav ul {
+    list-style: none;
+    text-align: center;
+    margin-right: 20px;
+}
+#title-padder {
+    margin-top: 100px;
+}
+
+#bio {
+    margin-top: 100px;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    color: rgb(33, 47, 60);
+    
+}
+
+#linkedin-small {
+    width: 2%;
+    height: auto;
+    margin-top: 8px;
+}
+.welcome {
+    font-size: 45px;
+}
+
+#bio_pic {
+    width: 25%;
+    height: auto;
+    border-radius: 50%;
+}
+.text-button h2 {
+    outline: solid;
+    width: 160px;
+    border-radius: 10px;
+}
+
+.about_me {
+    font-size: x-large;
+    width: 33%;
+    margin: auto;
+}
+
+h2 {
+    font-family: sans-serif;
+    text-align: center;
+    font-size: xx-large;
+    color:rgb(33, 47, 60);
+}
+
+.wrapper-helper {
+    margin: auto;
+    text-align: center;
+    width: 60%;
+}
+
+
+.landing-button {
+    display: inline-block;
+    margin: 10%;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.text-button :hover{
+    text-decoration: underline;
+}
+
+
+.contact-button {
+    display: inline-block;
+    margin: auto;
+    font-size: large;
+    width: 25%;
+    font-family: sans-serif;
+    outline: solid;
+    ;
+    border-radius: 10px;
+}
+
+.contact-wrapper {
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    /* text-align: justify; */
+}
+
+h3 {
+    color:rgb(33, 47, 60);
+    font-family: sans-serif;
+    font-size: x-large;
+}
+
+.project {
+    width: 49%;
+    display: inline-block;
+    height: 100px;
+}
+
+.about-pictures {
+    width: 30%;
+    height: 500px;
+    margin-top: 15px;
+    margin-left: 13%;
+    margin-right: 0;
+    display: inline-block;
+    /* display: flex; */
+
+}
+
+
+.project-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.project img {
+    margin-top: 20px;
+    width: 600px;
+    height: auto;
+}
+
+
+img#twitter {
+    width: 400px;
+    height: auto;
+}
+img#discord {
+    width: 400px;
+    height: auto;
+} 
+
+.description {
+    font-family: sans-serif;
+    color: rgb(33, 47, 60);
+    font-size: large;
+    font-weight: bold;
+    margin-top: 20px;
+    text-align: justify;
+    width:90%;
+    margin-left: 5%;
+    line-height: 24pt;
+}
+
+.click-to-pdf {
+    text-decoration: underline;
+    color: rgb(33, 47, 60);
+}
+
+.about-container {
+    /* width: 20%; */
+    display: inline-block;
+    width: 100%;
+}
+
+#my-blurb {
+    margin-top: 20px;
+    text-align: justify;
+    font-family: sans-serif;
+    font-size: x-large;
+    color: rgb(33, 47, 60);
+    width: 40%;
+    margin-left: 30%;
+}
+
+.nav-text {
+    color: white;
+    /* text-decoration: underline; */
+}
+
+#current {
+    text-decoration: underline;
+}

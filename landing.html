@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <script src="main.js"></script>
+    <meta charset="utf-8">
+    <title>Vatsal Bhargava, Developer</title>
+</head>
+<body>
+    <nav role=navigation class="top-nav">
+        <div class="name"><a href="#" class="nav-text">Vatsal Bhargava</a></div>
+        <ul>
+            <li tabindex=1><a href="landing.html" class="nav-text" id="current">Home</a></li>
+            <li tabindex=2><a href="projects.html" class="nav-text">Projects/Experience</a></li>
+            <li tabindex=3><a href="Vatsal Resume Fall 2022.pdf" target="_blank" class="nav-text">Resume</a></li>
+            <li tabindex=4><a href="#contact-me" class="nav-text">Contact</a></li>
+        </ul>
+
+    </nav>
+
+    <!-- Begin the main portion -->
+    <div id="title-padder"></div>
+    <div id="bio">
+        <h1 class="welcome">Hi, I'm Vatsal!</h1>
+        <img id="bio_pic" src="images/bio_pic.jpeg" alt="picture of vatsal">
+        <div><p class="about_me">I am a third-year computer science student at Northwestern University and an aspiring software engineer currently looking for Summer 2023 internships. Learn more about my work or contact me below! &#128071; </p></div>
+        <a href="https://www.linkedin.com/in/vatsal-bhargava/" target="_blank " role="link"><img id="linkedin-small" src="images/small-linkedin.png" alt="linkedin logo"></a>
+    </div>
+
+    <div id="about-container">
+        <h2>About Me</h2>
+        <div id="my-blurb">
+            <p class="about-me" aria-labelledby="personal description">I am Vatsal and am currently studying Computer Science 
+                and Math at Northwestern University. Born and raised 
+                in Potomac, MD (suburb of DC) but am currently in Evanston, IL. I am an aspiring software 
+                engineer looking to grow my skills in a professional setting. Outside 
+                of coding, I am an avid D.C. sports fan and enjoy getting active outdoors.
+            </p>
+        </div>
+
+        <div class="about-container">
+            <img class="about-pictures" src="images/nature.JPG" alt="picture of vatsal outside">
+            <img class="about-pictures" src="images/dunk.png" alt="picture of vatal dunking">
+        </div>  
+
+
+    </div>
+
+    <div class="wrapper">
+        <div class="wrapper-helper"> 
+            <div class="landing-button">
+                <a href="Vatsal Resume Fall 2022.pdf" target="_blank" class="text-button" role="resume"><h2>Resume</h2></a>
+            </div>
+            <div class="landing-button">
+                <a href="projects.html" class="text-button" role="link to projects"><h2>Projects</h2></a>
+            </div>
+        </div>
+    </div>
+
+    <div id="contact-me">
+        <h2 role="contact-section">Contact Me</h2>
+        <div class="contact-wrapper">
+            <div class="contact-button"> 
+                <a href="https://www.linkedin.com/in/vatsal-bhargava/" target="_blank" class="text-button"><h3 aria-label="linkedin-link">LinkedIn</h3></a>
+            </div>
+            <div class="contact-button"> 
+                <a href="https://github.com/vatsalbhargava" target="_blank" class="text-button"><h3 aria-label="github-link">GitHub</h3></a>
+            </div>
+            <div class="contact-button"> 
+                <a href="#!"><h3 onclick="openEmail()" role="open email client">Email</h3></a>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
